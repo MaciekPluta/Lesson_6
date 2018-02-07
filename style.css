@@ -1,0 +1,145 @@
+body {
+  background-color: #fafafa;
+  font-family: arial;
+}
+
+div {
+color: #0e7966;
+}
+
+.stackers_1, .stackers_2, .stackers_3 {
+  border: solid #2cb69d;
+  padding: 80px;
+  max-width: 260px;
+  text-align: center;
+}
+.stackers_2 {
+  position: relative;
+  top: -3px;
+  left: 200px;
+}
+.stackers_3 {
+  position: relative;
+  top: -3px;
+  left: 420px;
+}
+
+/* The Mirror */
+
+.mirror_1 {
+  border: solid green;
+  padding: 200px;
+  max-width: 100px;
+  /* text-align: center; */
+}
+.mirror_2 {
+  position: absolute;
+  border: solid green;
+  padding: 150px;
+  max-height: 320px;
+  top: 655px;
+  left: 50px;
+  min-width: 115px;
+}
+.mirror_3 {
+  position: absolute;
+  top: 695px;
+  left: 90px;
+  border: solid green;
+  padding: 110px;
+  max-height: 260px;
+  min-width: 115px;
+}
+.mirror_4 {
+  position: absolute;
+  top: 735px;
+  left: 160px;
+  border: solid green;
+  padding: 60px;
+  max-height: 160px;
+  min-width: 70px;
+  text-align: center;
+}
+
+/* The Skinny */
+
+.skinny_1, .skinny_2, .skinny_3 {
+  border: solid #0000FF;
+}
+
+.skinny_1 {
+  position: relative;
+  padding: 10px;
+  max-width: 800px;
+}
+.skinny_2 {
+  position: relative;
+  top: -3px;
+  left: 250px;
+  padding: 100px;
+  max-width: 100px;
+  text-align: center;
+}
+.skinny_3 {
+  position: relative;
+  top: -6px;
+  padding: 10px;
+  max-width: 800px;
+}
+
+/* The Absolute */
+
+.absolute_1, .absolute_2, .absolute_3, .absolute_4, .absolute_5, .absolute_6 {
+  border: solid #00387F;
+}
+.absolute_1 {
+  position: relative;
+  padding: 200px;
+  max-width: 100px;
+}
+.absolute_2 {
+  position: absolute;
+  top: 1404px;
+  left: 8px;
+  padding: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+}
+.absolute_3 {
+  position: absolute;
+  top: 1684px;
+  left: 8px;
+  padding: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+}
+.absolute_4 {
+  position: absolute;
+  top: 1404px;
+  left: 388px;
+  padding: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+}
+
+.absolute_5 {
+  position: absolute;
+  top: 1684px;
+  left: 388px;
+  padding: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+}
+.absolute_6 {
+  position: absolute;
+  top: 1544px;
+  left: 189px;
+  padding: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  text-align: center;
+}
